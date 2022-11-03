@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sentinels</title>
+  <link rel="stylesheet" href="../styles/reset.css">
+  <style>
+        body{
+      background-color: black;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    a{
+      color: inherit;
+      text-decoration: none;
+    }
+    main{
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2px;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    button{
+      display: block;
+      margin:20px;
+      padding: 5px;
+      border: 2px solid white;
+      background-color: beige;
+      font-weight: inherit;
+      border-radius: 5px;
+    }
+
+    h1{
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+      font-weight:inherit;
+      height: 70px;
+      width: 100%;
+      padding-top: 30px;
+      box-shadow: 5px 5px 5px 2px black;
+      border-radius: 3px;
+      background-image:linear-gradient(to right,purple,blue,purple);
+      color:black;
+    }
+    .sentinelgame{
+      color:white; 
+      text-shadow: 2px 2px 2px black;
+      font-family:inherit;
+      font-weight:inherit;
+      border: 3px outset white;
+      background-image:linear-gradient(45deg,purple,blue,purple);
+      padding: 5px;
+      width: 80%;
+      margin: 10px auto;
+      border-radius: 5px;
+    }
+    ul{
+      padding-left: 5px;
+
+    }
+    li{
+      margin-left: 12px;
+    }
+    #sentinelcharacters{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      
+    }
+    .characters{
+      display:inline-block;
+      margin: 5px;
+      background-image:linear-gradient(45deg,purple,blue,purple);
+      color:white; 
+      text-shadow: 2px 2px 2px black;
+      flex: 1;
+    }
+    .characterslong{
+      display:inline-block;
+      margin: 5px;
+      background-image:linear-gradient(45deg,purple,blue,purple);
+      color:white; 
+      text-shadow: 2px 2px 2px black;
+      flex: 2;
+    }    
+</style>
+</head>
+<body>
+  <h1>
+    Sentinels
+  </h1>
+
+  <button><a href="../index.html">Home</a></button>
+
+  <div id="sentinelcharacters">
+    <button class="characters"><a href="#">Sentinel Prime</a></button>
+    <button class="characters"><a href="#">Sentinel MK4</a></button>
+    <button class="characters"><a href="#">Cassandra Nova</a></button>
+  </div>
+  <main>
+    <div class="sentinelgame">
+      <p>23 Oct 2022 <br>
+        Game against Dave on TTS<br>
+       <ul>My Squad
+         <li>Sentinel Prime</li>
+         <li>sentinel MK4</li>
+         <li>Sentinel MK4</li>
+         <li>Cassandra Nova</li>
+         <li>Rocket Raccoon</li>
+       </ul>
+       <ul>Daves Squad
+         <li>Captain Steve</li>
+         <li>Hulk</li>
+         <li>Hawkeye</li>
+         <li>Iron Man</li>
+         <li>Crimson Dynamo</li>
+       </ul>
+       Win for Me on Mutant Madman and Kree Core
+      </p>
+    </div>
+  </main>
+  <button><a href="../index.html">Home</a></button>
+
+  
+</body>
+</html>
